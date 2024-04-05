@@ -1,9 +1,9 @@
 <?php
 
-fwrite(STDOUT, "Digite uma string: ");
+fwrite(STDOUT, "Digite a string: ");
 
 $string = trim(fgets(STDIN));
 
-$reversedString = strrev($string);
+$reverse = strrev($string);
 
-echo "String reversa: " . $reversedString . "\n";
+echo "String reversa: " . $reverse . "\n";
