@@ -24,4 +24,5 @@
 
 ### Reposta da Atividade 5:
   - Código para inverter uma string.
-  - Utilizei a função strrev nativa do PHP.
+  - Peguei o tamanho da string e fiz um for para percorrer letra por letra, ao contrário.
+  - Existe a função pronta do PHP strrev().
