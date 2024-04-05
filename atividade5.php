@@ -4,6 +4,11 @@ fwrite(STDOUT, "Digite a string: ");
 
 $string = trim(fgets(STDIN));
 
-$reverse = strrev($string);
+$length = strlen($string);
+$reversed = '';
 
-echo "String reversa: " . $reverse . "\n";
+for ($i = $length - 1; $i >= 0; $i--) {
+    $reversed .= $string[$i];
+}
+
+echo "String reversa: " . $reversed . "\n";
